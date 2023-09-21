@@ -5,9 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        LeagueSpartan: ['League Spartan', 'sans-serif'],
+      },
+      colors: {
+        'primary': "#135091",
+        "secondary": "#FF6452",
+      },
+    },
   },
-  plugins: [
-    require("daisyui")
-  ],
+  plugins: [require("daisyui")],
 }

@@ -1,5 +1,11 @@
-export default function App() {
+import { Navigation, Landing, Indroduction } from "./component";
+const App= () => {
   return (
-    <button className="btn btn-info">Button</button>
-  )
+    <main>
+      <Navigation />
+      <Landing />
+      <Indroduction />
+    </main>
+    )
 }
+export default App;

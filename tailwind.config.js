@@ -11,7 +11,16 @@ export default {
       },
       colors: {
         'primary': "#135091",
-        "secondary": "#FF6452",
+        "secondary": "#717171",
+      },
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
       },
     },
   },
